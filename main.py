@@ -3,7 +3,7 @@
 import os
 
 #import keep_alive to keep running the bot
-from keep_alive import keep_alive
+#from keep_alive import keep_alive
 
 # these modules are for querying the Hugging Face model
 import json
@@ -97,7 +97,7 @@ class MyClient(discord.Client):
 def main():
   # DialoGPT-medium-joshua is my model name
   client = MyClient('DialoGPT-small-cartman')
-  keep_alive()
+  #keep_alive()
   client.run(os.environ['DISCORD_TOKEN'])
 
 
