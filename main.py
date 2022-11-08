@@ -96,7 +96,7 @@ class MyClient(discord.Client):
 
 def main():
   # DialoGPT-medium-joshua is my model name
-  client = MyClient('DialoGPT-small-cartman')
+  client = MyClient('DialoGPT-medium-cartman')
   #keep_alive()
   client.run(os.environ['DISCORD_TOKEN'])
 
