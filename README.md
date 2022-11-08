@@ -7,9 +7,6 @@ tags:
   - discord.py
 ---
 
-# Credits
-  -[Code a Discord Chat Bot That Talks Like Your Favorite Character - Tutorial](https://www.youtube.com/watch?v=UjDpW_SOrlw)
-
 
 
 ## ✨ Features
@@ -30,3 +27,6 @@ tags:
 ## 📝 Notes
 
 This is a basic bot with the prefix `!`, more information can be founded at their [offical documentation](https://discordpy.readthedocs.io/en/stable/api.html).
+
+## references 
+ - [Code a Discord Chat Bot That Talks Like Your Favorite Character - Tutorial](https://www.youtube.com/watch?v=UjDpW_SOrlw)
