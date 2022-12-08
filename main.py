@@ -71,13 +71,15 @@ class MyClient(discord.Client):
 
     # form query payload with the content of the message
     payload = {'inputs': {'text': message.content}}
+    print(f'message is {payload}')
 
     # while the bot is waiting on a response from the model
     # set the its status as typing for user-friendliness
     async with message.channel.typing():
       response = self.query(payload)
+      print(f'response query from model : {response}')
     bot_response = response.get('generated_text', None)
-
+      print(f'bot_response to send : {bot_response} ')
     # we may get ill-formed response if the model hasn't fully loaded
     # or has timed out
     loading_msg = 'Model Overlrd/DialoGPT-small-cartman is currently loading'
