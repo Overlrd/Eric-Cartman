@@ -79,7 +79,7 @@ class MyClient(discord.Client):
       response = self.query(payload)
       print(f'response query from model : {response}')
     bot_response = response.get('generated_text', None)
-      print(f'bot_response to send : {bot_response} ')
+    print(f'bot_response to send : {bot_response} ')
     # we may get ill-formed response if the model hasn't fully loaded
     # or has timed out
     loading_msg = 'Model Overlrd/DialoGPT-small-cartman is currently loading'
