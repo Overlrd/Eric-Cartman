@@ -59,7 +59,8 @@ class MyClient(discord.Client):
     if message.author.id == self.user.id:
       return
     
-    if message.channel != 'eric-cartman':
+    channel = str(message.channel)
+    if channel != 'eric-cartman':
       return
     
     # ignore the message when bot not ping
