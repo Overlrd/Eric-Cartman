@@ -55,10 +55,9 @@ class MyClient(discord.Client):
         this function is called whenever the bot sees a message in a channel
         """
     # ignore the message if it comes from the bot itself
-    if message.author.id == self.user.id:
+    if message.author.id == self.user.id or message.channel != 'eric-cartman':
       return
     
-    print(message.channel)
     # ignore the message when bot not ping
     #mentions_list = []
     # add user pinged to a list
