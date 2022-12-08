@@ -58,16 +58,16 @@ class MyClient(discord.Client):
     if message.author.id == self.user.id:
       return
     # ignore the message when bot not ping
-    mentions_list = []
+    #mentions_list = []
     # add user pinged to a list
-    for i in message.mentions:
-      mentions_list.append(i.name)
+    #for i in message.mentions:
+    #  mentions_list.append(i.name)
     # search for the bot
-    is_in = int(mentions_list.count(self.user.name))
+    #is_in = int(mentions_list.count(self.user.name))
     # if not in , don't answer
 
-    if is_in == 0:
-      return
+    #if is_in == 0:
+    #  return
 
     # form query payload with the content of the message
     payload = {'inputs': {'text': message.content}}
