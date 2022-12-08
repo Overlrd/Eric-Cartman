@@ -55,6 +55,7 @@ class MyClient(discord.Client):
         this function is called whenever the bot sees a message in a channel
         """
     # ignore the message if it comes from the bot itself
+    print(f'message channel : {message.channel}')
     if message.author.id == self.user.id or message.channel != 'eric-cartman':
       return
     
