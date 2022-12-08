@@ -59,6 +59,9 @@ class MyClient(discord.Client):
     if message.author.id == self.user.id:
       return
     
+    if message.channel != 'eric-cartman':
+      return
+    
     # ignore the message when bot not ping
     #mentions_list = []
     # add user pinged to a list
