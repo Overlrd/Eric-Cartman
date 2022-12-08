@@ -1,27 +1,30 @@
---- 
-title          : Eric-Cartman 
-description: A DialoGPT Discord bot Trained on Eric Cartman's scripts from South Park 
-tags:
-  - Microsoft DialoGPT
-  - python
-  - discord.py
----
+# Eric-Cartman-DialoGPT
+
+Description | A Conversational Discord Bot based on A DialoGPT model 
+--- | --- 
+Tags | NLP , Conversational AI,Microsoft DialoGPT 
+
+<br/>
+
+<br/>
 
 
+## ✨ ?
 
-## ✨ Features
+A conversational Ai is an Artificial Intelligence model capable of understanding , processing and responding to human language.
+Here i train the Microsoft DialoGPT model on Eric Cartman scripts from the **South Park** Tv Show.
+The data was collected on [south park fandom website](https://southpark.fandom.com/wiki/Portal:Scripts)
 
-- Conversational AI
-- Cartman's fun Jokes
 
-## 💁‍♀️ How to use
+## 💁‍♀️ Setup
 
-- Make sure to have an [Discord](discord.gg) account
-- Inite the bot to your server with the api [link](https://discord.com/api/oauth2/authorize?client_id=1034441993985732608&permissions=3072&scope=bot)
+- Make sure to have an [Discord](discord.gg) account and setup a server
+- Invite the bot to your server with the api [link](https://discord.com/api/oauth2/authorize?client_id=1034441993985732608&permissions=3072&scope=bot)
 
 
 ## Preview
-![197823700-8757edb1-f9b3-4b23-976a-375235ec29cd](https://user-images.githubusercontent.com/90383672/200600149-783c3501-850d-48d4-9b77-18a685a0d439.png)
+![197823700-8757edb1-f9b3-4b23-976a-375235ec29cd](https://user-images.githubusercontent.com/90383672/206469849-dda1eacf-00ae-411e-8b49-42e3f2505077.png)
+
 
 
 ## 📝 Notes
