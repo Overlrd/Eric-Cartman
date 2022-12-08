@@ -57,6 +57,8 @@ class MyClient(discord.Client):
     # ignore the message if it comes from the bot itself
     if message.author.id == self.user.id:
       return
+    
+    print(message.channel)
     # ignore the message when bot not ping
     #mentions_list = []
     # add user pinged to a list
