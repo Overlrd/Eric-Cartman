@@ -71,7 +71,8 @@ class MyClient(discord.Client):
 
     # form query payload with the content of the message
     payload = {'inputs': {'text': message.content}}
-    print(f'message is {payload}')
+    print(f'message content is {message.content}')
+    print(f'payload is {payload}')
 
     # while the bot is waiting on a response from the model
     # set the its status as typing for user-friendliness
