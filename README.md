@@ -1,5 +1,5 @@
----
-title: Eric-Cartman
+--- 
+title          : Eric-Cartman 
 description: A DialoGPT Discord bot Trained on Eric Cartman's scripts from South Park 
 tags:
   - Microsoft DialoGPT
