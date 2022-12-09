@@ -5,7 +5,7 @@ import os
 #import keep_alive to keep running the bot
 #from keep_alive import keep_alive
 
-# these modules are for querying the Hugging Face model
+# #these modules are for querying the Hugging Face model
 import json
 import requests
 
