@@ -34,6 +34,3 @@ You can test the bot on my discord server [here](https://discord.gg/cVsEzqztDj)
 ## 📝 Notes
 
 This is a basic bot with the prefix `!`, more information can be founded at their [offical documentation](https://discordpy.readthedocs.io/en/stable/api.html).
-
-## references 
- - [Code a Discord Chat Bot That Talks Like Your Favorite Character - FreeCodeCamp](https://www.youtube.com/watch?v=UjDpW_SOrlw)
